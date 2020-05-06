@@ -340,4 +340,63 @@ template {
 [hidden] {
   display: none;
 }
+
+.container {
+  max-width: 1256px;
+  margin: auto;
+}
+
+.header {
+  background-color: #131313;
+  padding: 24px 0;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo__link {
+  color: #E3B873;
+  text-transform: uppercase;
+}
+
+.nav__item {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 40px;
+}
+
+.phone {
+  color: #E3B873;
+}
+
+.contacts__phone {
+  margin-right: 45px;
+}
+
+.button {
+  padding: 13px 20px;
+  border: none;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.button--primary {
+  background-color: #E3B873;
+  color: #fff;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+}
 /*# sourceMappingURL=style.css.map */
