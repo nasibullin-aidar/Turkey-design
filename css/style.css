@@ -382,6 +382,7 @@ template {
 .logo__link {
   color: #E3B873;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .nav__item {
@@ -397,6 +398,12 @@ template {
 
 .contacts__phone {
   margin-right: 45px;
+}
+
+.hero {
+  background: #131313 url("../img/hero-bg.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .button {
