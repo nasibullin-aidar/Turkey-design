@@ -2,3 +2,39 @@
   background: $dark url("../img/hero-bg.jpg") no-repeat
   background-size: cover
   height: 100vh
+  position: relative
+
+.instagram
+  display: flex
+  position: absolute
+  top: 0
+  left: 0
+  height: 100%
+  background-color: $dark
+  align-items: center
+  justify-content: center
+  &__link
+    text-decoration: none
+    transform: rotate(90deg)
+    text-transform: uppercase
+    color: $primary
+
+.title
+  margin: 0
+
+.scroll
+  display: flex
+  align-items: center
+  justify-content: center
+  position: absolute
+  bottom: 0
+  left: 0
+  background-color: $dark
+  transform: translateY(50%)
+  
+  &__down
+    color: $light
+    text-decoration: none
+    text-transform: uppercase
+    padding: 48px 34px
+    
