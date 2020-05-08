@@ -363,8 +363,12 @@ template {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  z-index: 99;
   background-color: #131313;
   padding: 24px 0;
+  width: 100%;
 }
 
 .menu {
@@ -407,6 +411,43 @@ template {
   position: relative;
 }
 
+.hero__container {
+  padding-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.hero__title {
+  margin: 0;
+  font-family: 'Yeseva One', cursive;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+  line-height: 53px;
+  padding-bottom: 20px;
+}
+
+.hero__text {
+  font-size: 22px;
+  line-height: 30px;
+  color: #fff;
+  width: 40%;
+  padding-bottom: 40px;
+}
+
+.hero__span {
+  color: #E3B873;
+}
+
+.hero__button {
+  margin-right: 20px;
+}
+
 .instagram {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -432,10 +473,6 @@ template {
   color: #E3B873;
 }
 
-.title {
-  margin: 0;
-}
-
 .scroll {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -459,6 +496,7 @@ template {
   text-decoration: none;
   text-transform: uppercase;
   padding: 48px 34px;
+  font-family: 'Yeseva One', cursive;
 }
 
 .button {
@@ -470,6 +508,13 @@ template {
 
 .button--primary {
   background-color: #E3B873;
+  color: #fff;
+}
+
+.button--secondary {
+  padding-top: 12px;
+  border: 1px solid #fff;
+  background-color: transparent;
   color: #fff;
 }
 
