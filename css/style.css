@@ -447,8 +447,8 @@ template {
   font-family: 'Yeseva One', cursive;
   text-transform: uppercase;
   color: #fff;
-  font-size: 40px;
-  line-height: 53px;
+  font-size: 2.85rem;
+  line-height: 3.78rem;
   padding-bottom: 20px;
 }
 
@@ -568,9 +568,13 @@ template {
   color: #fff;
 }
 
+html {
+  font-size: 14px;
+}
+
 body {
   font-family: "Futura Book", sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -578,5 +582,63 @@ body {
 * {
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 1256px) {
+  html {
+    font-size: 12px;
+  }
+  .menu {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .instagram {
+    display: none;
+  }
+  .header__container {
+    width: 90%;
+    margin: auto;
+  }
+  .nav__item {
+    margin-right: 20px;
+  }
+  .contacts__button {
+    display: none;
+  }
+  .contacts__phone {
+    text-decoration: none;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scroll {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+  .contacts__phone {
+    color: #fff;
+  }
+  .hero__text {
+    width: 100%;
+  }
+  .hero__container {
+    padding: 0;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero__button {
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
