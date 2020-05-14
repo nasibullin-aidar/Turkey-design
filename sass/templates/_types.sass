@@ -1,0 +1,63 @@
+.types
+  height: 1vh
+  &__heading
+    padding-top: 50px
+    padding-bottom: 20px
+    display: flex
+    flex-direction: column
+    align-items: center
+    color: #181818
+
+.heading
+  &__title
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Yeseva One", sans-serif
+    text-transform: uppercase
+  &__image
+    padding-top: 13px
+.row
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  
+  &__element
+    flex-basis: 31%
+  &__description
+    padding-top: 25px
+    padding-left: 35px
+    position: relative
+    width: 75%
+    margin: auto
+    transform: translateY(-50%)
+    background-color: $light
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    &__title
+      font-family: "Yeseva One", sans-serif
+      font-size: 18px
+      line-height: 25px
+      color: darken($grey,30%)
+      padding-bottom: 10px
+    &__ul
+      padding-left: 1.5rem
+    &__li
+      font-family: 'Futura Book', sans-serif
+      color: $grey
+      font-size: 15px
+      line-height: 25px
+
+
+  &__price-tag
+    display: flex
+    padding: 13px 20px
+    border: none
+    border-radius: 2px
+    text-transform: uppercase
+    cursor: pointer
+    background-color: $primary
+    color: $light
+    width: 50%
+    font-family: "Yeseva One", sans-serif
+    justify-content: center
+    transform: translateY(50%)
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);

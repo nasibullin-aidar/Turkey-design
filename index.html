@@ -1,67 +1,179 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Турецкий ремонт</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Турецкий ремонт</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap&subset=cyrillic" rel="stylesheet">
-</head>
-
-<body>
-  <header class="header">
-    <div class="container header__container">
-      <div class="menu">
-        <div class="logo logo__header">
-          <a href="#" class="logo__link">Repair Design Project</a>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="menu">
+          <div class="logo logo__header">
+            <a href="#" class="logo__link">Repair Design Project</a>
+          </div>
+          <!-- /.logo logo__header -->
+          <nav class="nav header__nav">
+            <a href="#" class="nav__item">Главная</a>
+            <a href="#" class="nav__item">Проекты</a>
+            <a href="#" class="nav__item">Замер</a>
+            <a href="#" class="nav__item">Команда</a>
+            <a href="#" class="nav__item">Отзывы</a>
+            <a href="#" class="nav__item">Контакты</a>
+          </nav>
+          <div class="contacts contacts__header">
+            <a href="tel:+79872422946" class="phone contacts__phone"
+              >+7 (987) 24-22-946</a
+            >
+            <button class="button contacts__button button--primary">
+              Заказать звонок
+            </button>
+          </div>
+          <!-- /.contacts -->
         </div>
-        <!-- /.logo logo__header -->
-        <nav class="nav header__nav">
-          <a href="#" class="nav__item">Главная</a>
-          <a href="#" class="nav__item">Проекты</a>
-          <a href="#" class="nav__item">Замер</a>
-          <a href="#" class="nav__item">Команда</a>
-          <a href="#" class="nav__item">Отзывы</a>
-          <a href="#" class="nav__item">Контакты</a>
-        </nav>
-        <div class="contacts contacts__header">
-          <a href="tel:+79872422946" class="phone contacts__phone">+7 (987) 24-22-946</a>
-          <button class="button contacts__button button--primary">Заказать звонок</button>
-        </div>
-        <!-- /.contacts -->
-      </div>
-      <!-- /.menu -->
-      
-    </div>
-    <!-- /.container -->
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="instagram">
-        <a href="#" class="instagram__link">Instagram</a>
-      </div>
-      <!-- instagram -->
-      <div class="container hero__container">
-        <div class="hero__content">
-          <h1 class="title hero__title">турецкий ремонт в <span class="hero__span">Уфе</span></h1>
-          <p class="hero__text">Получите готовый ремонт под ключ в срок с экономией рабочего времени до 45 дней и 20% от
-            стоимости материалов за счет организации работы</p>
-          <button class="button hero__button button--primary">Рассчитать стоимость</button>
-          <button class="button hero__button button--secondary">Отправить заявку</button>
-        </div>
-        <!-- /.hero__content -->
+        <!-- /.menu -->
       </div>
       <!-- /.container -->
-      <div class="scroll hero__scroll">
-        <a href="#" class="scroll__down">листайте вниз</a>
-      </div>
-      <!-- scroll -->
-    </section>
-  </main>
+    </header>
 
+    <main>
+      <section class="hero">
+        <div class="instagram">
+          <a href="#" class="instagram__link">Instagram</a>
+        </div>
+        <!-- instagram -->
+        <div class="container hero__container">
+          <div class="hero__content">
+            <h1 class="title hero__title">
+              турецкий ремонт в <span class="hero__span">Уфе</span>
+            </h1>
+            <p class="hero__text">
+              Получите готовый ремонт под ключ в срок с экономией рабочего
+              времени до 45 дней и 20% от стоимости материалов за счет
+              организации работы
+            </p>
+            <button class="button hero__button button--primary">
+              Рассчитать стоимость
+            </button>
+            <button class="button hero__button button--secondary">
+              Отправить заявку
+            </button>
+          </div>
+          <!-- /.hero__content -->
+        </div>
+        <!-- /.container -->
+        <div class="scroll hero__scroll">
+          <a href="#" class="scroll__down">листайте вниз</a>
+        </div>
+        <!-- scroll -->
+      </section>
 
-</body>
-
+      <section class="types">
+        <div class="container">
+          <div class="heading types__heading">
+            <h2 class="heading__title">Виды ремонта</h2>
+            <div class="heading__image">
+              <img src="./img/types/main.svg" alt="Виды ремонта" />
+            </div>
+          </div>
+          <div class="row types__row">
+            <div class="row__element">
+              <div class="row__img">
+                <img src="./img/types/image_1.jpg" alt="вид ремонта" />
+              </div>
+              <!-- /.row__img -->
+              <div class="row__description">
+                <h3 class="row__description__title">Косметический ремонт</h3>
+                <ul class="row__description__ul">
+                  <li class="row__description__li">Демонтаж покрытий</li>
+                  <li class="row__description__li">Поклейка обоев</li>
+                  <li class="row__description__li">Роспись стен и потолков</li>
+                  <li class="row__description__li">
+                    Укладка напольных покрытий
+                  </li>
+                  <li class="row__description__li">Замена сантехники</li>
+                  <li class="row__description__li">
+                    Замена розеток и выключателей
+                  </li>
+                  <li class="row__description__li">Замена дверей</li>
+                </ul>
+                <div class="row__price-tag">
+                  <strong class="row__price-tag__price">от 900 руб / m<sup>2</sup></strong>
+                </div>
+                <!-- price-tag -->
+              </div>
+              <!-- /.row__description -->
+              
+            </div>
+            <!-- /.row__element -->
+            <div class="row__element">
+              <div class="row__img">
+                <img src="./img/types/image_2.jpg" alt="вид ремонта" />
+              </div>
+              <!-- /.row__img -->
+              <div class="row__description">
+                <h3 class="row__description__title">Капитальный ремонт</h3>
+                <ul class="row__description__ul">
+                  <li class="row__description__li">Демонтаж покрытий</li>
+                  <li class="row__description__li">Поклейка обоев</li>
+                  <li class="row__description__li">Роспись стен и потолков</li>
+                  <li class="row__description__li">
+                    Укладка напольных покрытий
+                  </li>
+                  <li class="row__description__li">Замена сантехники</li>
+                  <li class="row__description__li">
+                    Замена розеток и выключателей
+                  </li>
+                  <li class="row__description__li">Замена дверей</li>
+                </ul>
+                <div class="row__price-tag">
+                  <strong class="row__price-tag__price">от 1600 руб / m<sup>2</sup></strong>
+                </div>
+                <!-- price-tag -->
+              </div>
+              <!-- /.row__description -->
+            </div>
+            <!-- /.row__element -->
+            <div class="row__element">
+              <div class="row__img">
+                <img src="./img/types/image_3.jpg" alt="вид ремонта" />
+              </div>
+              <!-- /.row__img -->
+              <div class="row__description">
+                <h3 class="row__description__title">Дизайнерский ремонт</h3>
+                <ul class="row__description__ul">
+                  <li class="row__description__li">Демонтаж покрытий</li>
+                  <li class="row__description__li">Поклейка обоев</li>
+                  <li class="row__description__li">Роспись стен и потолков</li>
+                  <li class="row__description__li">
+                    Укладка напольных покрытий
+                  </li>
+                  <li class="row__description__li">Замена сантехники</li>
+                  <li class="row__description__li">
+                    Замена розеток и выключателей
+                  </li>
+                  <li class="row__description__li">Замена дверей</li>
+                </ul>
+                <div class="row__price-tag">
+                  <strong class="row__price-tag__price">от 2600 руб / m<sup>2</sup></strong>
+                </div>
+                <!-- price-tag -->
+              </div>
+              <!-- /.row__description -->
+            </div>
+            <!-- /.row__element -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.types -->
+    </main>
+  </body>
 </html>
