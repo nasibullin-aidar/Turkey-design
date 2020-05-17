@@ -368,8 +368,7 @@ template {
 }
 
 .col-50 {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  width: 50%;
 }
 
 html {
@@ -888,6 +887,81 @@ img {
   padding-bottom: 3rem;
 }
 
+.swiper-scrollbar {
+  display: none;
+}
+
+.swiper-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.swiper-slide__text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin-bottom: 2.4286rem;
+}
+
+.swiper-slide__heading {
+  color: #E3B873;
+  font-size: 1.2857rem;
+  line-height: 1.7857rem;
+  text-transform: uppercase;
+  font-family: 'Yeseva One', cursive;
+  margin-bottom: 0.6429rem;
+}
+
+.swiper-slide__value {
+  font-size: 1.0714rem;
+  line-height: 1.4286rem;
+  color: #fff;
+}
+
+.swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.swiper-button-prev, .swiper-button-next {
+  bottom: 0;
+  top: auto;
+  width: 42px;
+  height: 14px;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  display: none;
+}
+
+.swiper-button-next {
+  background: url("../img/swiper/arrow-next.svg") no-repeat center;
+}
+
+.swiper-button-prev {
+  left: 0;
+  background: url("../img/swiper/arrow-prev.svg") no-repeat center;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  width: auto;
+  bottom: -2px;
+}
+
+.completed {
+  padding-bottom: 6.4286rem;
+}
+
 .button {
   padding: 13px 20px;
   border: none;
@@ -922,6 +996,16 @@ img {
   .menu {
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .col-50 {
+    width: 90%;
+    margin: auto;
+  }
+  .swiper-wrpapper-right {
+    margin-top: 2rem;
   }
 }
 

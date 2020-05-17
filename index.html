@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Турецкий ремонт</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap&subset=cyrillic"
       rel="stylesheet"
     />
+    
   </head>
 
   <body>
@@ -83,10 +85,102 @@
                 <span class="completed__inblock-title__span">проекты</span>
                 <p class="completed__text">На сайте представлена ​​лишь небольшая часть работ, выполняемых нашей
                   компанией. За 14 лет работы на строительном рынке мы осчастливили более 1000 семей</p>
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                      <div class="swiper-slide__text">
+                        <h3 class="swiper-slide__heading">Город:</h3>
+                        <span class="swiper-slide__value">Уфа <br>ЖК Квартал Энтузиастов</span>
+                      </div>
+                      <!-- /.swiper-slide__text -->
+                      <div class="swiper-slide__text">
+                        <h3 class="swiper-slide__heading">Площадь:</h3>
+                        <span class="swiper-slide__value">81 м2</span>
+                      </div>
+                      <!-- /.swiper-slide__text -->
+                      <div class="swiper-slide__text">
+                        <h3 class="swiper-slide__heading">Срок ремонта:</h3>
+                        <span class="swiper-slide__value">3,5 месяца</span>
+                      </div>
+                      <!-- /.swiper-slide__text -->
+                      <div class="swiper-slide__text">
+                        <h3 class="swiper-slide__heading">Стоимость:</h3>
+                        <span class="swiper-slide__value">По запросу</span>
+                      </div>
+                      <!-- /.swiper-slide__text -->
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide__text">
+                        <h3 class="swiper-slide__heading">Город:</h3>
+                        <span class="swiper-slide__value">Уфа <br>ЖК Аристократ</span>
+                      </div>
+                      <!-- /.swiper-slide__text -->
+                      <div class="swiper-slide__text">
+                        <h3 class="swiper-slide__heading">Площадь:</h3>
+                        <span class="swiper-slide__value">34 м2</span>
+                      </div>
+                      <!-- /.swiper-slide__text -->
+                      <div class="swiper-slide__text">
+                        <h3 class="swiper-slide__heading">Срок ремонта:</h3>
+                        <span class="swiper-slide__value">3 месяца</span>
+                      </div>
+                      <!-- /.swiper-slide__text -->
+                      <div class="swiper-slide__text">
+                        <h3 class="swiper-slide__heading">Стоимость:</h3>
+                        <span class="swiper-slide__value">По запросу</span>
+                      </div>
+                      <!-- /.swiper-slide__text -->
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide__text">
+                        <h3 class="swiper-slide__heading">Город:</h3>
+                        <span class="swiper-slide__value">Уфа</span>
+                      </div>
+                      <!-- /.swiper-slide__text -->
+                      <div class="swiper-slide__text">
+                        <h3 class="swiper-slide__heading">Площадь:</h3>
+                        <span class="swiper-slide__value">126 м2</span>
+                      </div>
+                      <!-- /.swiper-slide__text -->
+                      <div class="swiper-slide__text">
+                        <h3 class="swiper-slide__heading">Срок ремонта:</h3>
+                        <span class="swiper-slide__value">5 месяцев</span>
+                      </div>
+                      <!-- /.swiper-slide__text -->
+                      <div class="swiper-slide__text">
+                        <h3 class="swiper-slide__heading">Стоимость:</h3>
+                        <span class="swiper-slide__value">По запросу</span>
+                      </div>
+                      <!-- /.swiper-slide__text -->
+                    </div>
+                  </div>
+                  
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-next"></div>
+
+                  <!-- If we need scrollbar -->
+                  <div class="swiper-scrollbar"></div>
+                </div>
+                <!-- СЛАЙДЕР -->
               </div>
               <!-- /.col-50 -->
+              
               <div class="col-50">
-
+                <div class="swiper-container">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper swiper-wrpapper-right">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/projects.jpg" alt="ремонт"></div>
+                    <div class="swiper-slide"><img src="img/projects.jpg" alt="ремонт"></div>
+                    <div class="swiper-slide"><img src="img/projects.jpg" alt="ремонт"></div>
+                  </div>
+                </div>
               </div>
               <!-- /.col-50 -->
             </div>
@@ -94,7 +188,7 @@
           </div>
           <!-- /.container -->
       </section>
-    <!-- НИЖЕ СЕКЦИЯ ЗАВЕРШЕННЫЕ ПРОЕКТЫ -->
+    <!-- ВЫШЕ СЕКЦИЯ ЗАВЕРШЕННЫЕ ПРОЕКТЫ -->
 
     <!-- НИЖЕ БЛОК ВИДЫ РЕМОНТА -->
       <section class="types">
@@ -316,9 +410,9 @@
 
       <!-- Подключение js -->
       <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
       <script src="js/main.js"></script>
 
-      <!-- пример -->
     </main>
   </body>
 </html>
