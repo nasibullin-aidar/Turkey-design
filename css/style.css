@@ -1186,6 +1186,15 @@ img {
   .row__description__ul {
     padding: 0;
   }
+  .control__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .input-group {
+    margin-bottom: 2rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
