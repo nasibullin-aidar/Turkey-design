@@ -60,30 +60,33 @@
     background: transparent
     border: none
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    color: $light
     font-size: 18px
     line-height: 25px
-    margin-bottom: 3.43rem
-    &:last-of-type
-      margin-bottom: 1.15rem
-    &::placeholder
-      font-size: 18px
-      line-height: 25px
+    
+    &--light
       color: $light
+      margin-bottom: 3.43rem
+      &:last-of-type
+        margin-bottom: 1.15rem
+      &::placeholder
+        font-size: 18px
+        line-height: 25px
+        color: $light
   &__label
     margin-bottom: 0
     font-size: 1.07rem
     line-height: 1.43rem
-    color: rgba(255, 255, 255, 0.5)
     align-self: start
-
+    &--light
+      color: rgba(255, 255, 255, 0.5)
 .policy
   display: flex
   align-items: center
   align-self: flex-start
   margin-bottom: 2.71rem
   &__label
-    color: $light
+    &--light
+      color: $light
   &__checkbox
     margin-right: 0.3rem
     transform: translateY(-20%)

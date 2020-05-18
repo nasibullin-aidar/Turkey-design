@@ -1,0 +1,69 @@
+.heading
+  &__title
+    &--light
+      color: $light
+      // нужно поменять на $light
+
+.control
+  margin-top: -27rem
+  &__button
+    padding: 20px 60px
+  &__row
+    display: flex
+    width: 80%
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 2.6429rem
+  &__modal__form
+    display: flex
+    margin: auto
+    margin-top: 4.3571rem
+  &__videoblock
+    display: flex
+    position: relative
+    margin: auto
+    margin-bottom: 4.4286rem
+    max-width: 58.3571rem
+    height: 31rem
+    background: url('../img/video.jpg') center no-repeat
+    align-items: center
+    justify-content: center
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15)
+    &::before 
+      position: absolute
+      content: ''
+      background-color: rgba($dark, 0.7)
+      width: 100%
+      height: 100%
+    &__play
+      position: relative
+  &__text
+    margin: auto
+    width: 45%
+    text-align: center
+    font-size: 1.4286rem
+    line-height: 2.4286rem
+    &::before
+      display: block
+      margin: auto
+      content: ''
+      width: 3.9286rem
+      height: 2px
+      background-color: $primary
+      margin-bottom: 2.5rem
+
+.control__form
+  &--dark
+    color: rgba(54, 54, 54, 0.5);
+.form__input
+  &--dark
+
+    &::placeholder
+      color: $dark
+.policy
+  margin: auto
+  color: $dark
+  flex-basis: 100%
+
+.input-group
+  border-bottom: 1px solid grey
