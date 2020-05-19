@@ -3,24 +3,18 @@
     font-size: 12px
   .menu
     justify-content: space-around
-@media screen and ( max-width: 1000px  )
-  .col-50
-    width: 90%
-    margin: auto
-  .swiper-wrpapper-right
-    margin-top: 2rem
-
-@media screen and ( max-width: 992px )
-
   .instagram
     display: none
-  .header
-    &__container
-      width: 90%
-      margin: auto
+  .row
+    width: 90%
+    margin: auto
+
+
+@media screen and ( max-width: 991px )
+  
   .nav
     &__item
-      margin-right: 20px
+      margin-right: 1.4286rem
   .contacts
     &__button
       display: none
@@ -44,10 +38,16 @@
       &__ul
         padding: 0
   .control__row
-    flex-direction: column
+    flex-wrap: wrap
   .input-group
     margin-bottom: 2rem
+    flex-basis: 45%
+  .control__button
+    margin: auto
 @media screen and ( max-width: 768px )
+  .control
+    &__text
+      width: 80%
   .scroll
     display: none
   .nav
@@ -61,16 +61,38 @@
     &__container
       padding: 0
       width: 90%
+  .input
+    &__group
+      width: 100%
 
 @media screen and ( max-width: 576px )
+  html
+    font-size: 10px
   .hero
     &__button
       display: block
       width: 90%
       margin: auto
-      margin-bottom: 10px
+      margin-bottom: 0.7143rem
+    &__content
+      width: 90%
+      margin: auto
   .row
     &__element
       width: 98%
     &__description
       width: 92%
+  .form
+    width: 100%
+  .col-50
+    width: 80%
+  .input
+    &-group
+      flex-basis: 100%
+  .footer
+    &__input-group
+      flex-basis: 100%
+  .modal
+    &__dialog
+    &__form
+      width: 95%
