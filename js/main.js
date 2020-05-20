@@ -52,13 +52,13 @@ $(document).ready(function () {
   // Валидация
   $('#form').validate({
     rules: {
-      // simple rule, converted to {required:true}
+      
       'user-name': "required",
       'user-phone': "required",
-      // compound rule
+     
       'user-mail': {
         required: true,
-        email: true
+        email: true,
       }
     },
     messages: {
