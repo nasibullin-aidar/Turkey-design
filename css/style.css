@@ -733,6 +733,7 @@ img {
 .row__element {
   -ms-flex-preferred-size: 31%;
       flex-basis: 31%;
+  max-height: 43.4286rem;
 }
 
 .row__description {
@@ -1009,6 +1010,10 @@ img {
   padding-bottom: 3rem;
 }
 
+.projects {
+  padding-bottom: 17rem;
+}
+
 .swiper-scrollbar {
   display: none;
 }
@@ -1084,6 +1089,20 @@ img {
   padding-bottom: 6.4286rem;
 }
 
+.footer {
+  background: #fff url("../img/footer-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.footer__map {
+  margin-top: 4rem;
+}
+
+.footer__container {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
 .footer__menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1093,7 +1112,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
 .footer__form {
@@ -1151,6 +1170,12 @@ img {
 
 .form__wrapper__button {
   margin-bottom: 2.4286rem;
+}
+
+.heading__title--primary {
+  color: #E3B873;
+  text-align: center;
+  margin-bottom: 4rem;
 }
 
 .button {
