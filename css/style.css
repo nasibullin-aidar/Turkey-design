@@ -1248,6 +1248,7 @@ img {
   }
   .row__element {
     width: 90%;
+    margin-bottom: 6rem;
   }
   .row__img {
     display: -webkit-box;
