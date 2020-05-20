@@ -1011,7 +1011,7 @@ img {
 }
 
 .projects {
-  padding-bottom: 17rem;
+  padding-bottom: 4rem;
 }
 
 .swiper-scrollbar {
@@ -1090,8 +1090,8 @@ img {
 }
 
 .footer {
-  background: #fff url("../img/footer-bg.jpg") no-repeat center;
-  background-size: cover;
+  background: #fff url("../img/footer-bg.jpg") no-repeat bottom;
+  background-size: 100% 85%;
 }
 
 .footer__map {
