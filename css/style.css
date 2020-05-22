@@ -1205,8 +1205,8 @@ img {
   color: #fff;
 }
 
-.error {
-  color: red;
+.invalid {
+  color: #E3B873;
 }
 
 @media screen and (max-width: 1256px) {

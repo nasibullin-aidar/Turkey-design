@@ -51,23 +51,35 @@ $(document).ready(function () {
 
   // Валидация
   $('#form').validate({
+    errorClass: "invalid",
     rules: {
-      
-      'user-name': "required",
-      'user-phone': "required",
-     
-      'user-mail': {
+
+      userName: "required",
+      userPhone: "required",
+      userEmail: {
         required: true,
-        email: true,
-      }
+        email: true
+      },
     },
     messages: {
-      'user-name': "Имя обязательно",
-      'user-phone': "Укажите телефон",
-      'user-mail': {
+      userName: "Имя обязательно",
+      userPhone: "Укажите телефон",
+      userEmail: {
         required: "Обязательно укажите email",
         email: "Введите в форме name@domain.ru/com"
       }
+    },
+    submitHandler: function (form) {
+      $.ajax({
+        type: "POST",
+        url: "send.php",
+        data: $(form).serialize(),
+        success: function (response) {
+          alert('Контактные данные отправлены, мы скоро перезвоним');
+          $(form)[0].reset();
+          modal.removeClass('modal--visible');
+        }
+      });
     }
   });
   // маска для телефона
